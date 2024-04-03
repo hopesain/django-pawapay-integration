@@ -13,7 +13,7 @@ The requirements for this project to run on your local machine are as follows;
     requests==2.31.0
 
 Alternatively, you can install the requirements by running "python -m pip install -r requirements.txt" on your terminal if you have cloned this repository. 
-Open the terminal with your project path, and in this case it is for pawapay_project and make sure you're able to the manage.py file within it.
+Open the terminal with your project path, and in this case it is for django-pawapay-integration and make sure you're able see to the manage.py file within it.
 After replacing with your actual token, installing the requirements then you can run "python manage.py runserver" on your terminal. 
 
 
