@@ -6,7 +6,8 @@ import requests
 # after getting the token you should define it as follows
 # token = "Bearer your-token-here" it will look like something below
 
-test_token = "Bearer shbdaahbhash1qeyqheq.ajha" # This is a wrong token, I am just showing you how to define it so that you get into trouble, lol.
+token = "Bearer shbdaahbhash1qeyqheq.ajha" # This is a wrong token, I am just showing you how to define it so that you get into trouble, lol.
+
 # Replace 'shbdaahbhash1qeyqheq.ajha' with your actual token from pawapay.
 
 #In production, make sure the token is stored in .env file and not hard coded as shown in this demo.
@@ -15,8 +16,6 @@ test_token = "Bearer shbdaahbhash1qeyqheq.ajha" # This is a wrong token, I am ju
 
 def homepage(request):
     return render (request, 'homepage.html')
-
-token = "Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJqdGkiOiJlYjU3OGI5Zi03NDc3LTQ1YTItOGRiNi01ZDVmYjlhM2QyNjkiLCJzdWIiOiIxMzg4IiwiaWF0IjoxNzExNzI2NTU0LCJleHAiOjIwMjcyNTkzNTQsInBtIjoiREFGLFBBRiIsInR0IjoiQUFUIn0.kbO8Y52vyYVGzH02txnkd0jbBSiDyn6cMraxYPDxz2w"
 
 def initialize_payment(request):
     if request.method == 'POST':
